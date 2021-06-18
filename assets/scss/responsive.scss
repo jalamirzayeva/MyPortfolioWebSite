@@ -1,0 +1,222 @@
+@media (max-width: 576px) {
+    h1{
+        margin-left: 15px;
+    }
+
+    .menu-nav__list__item{
+        display: none;
+    }
+//    about
+    .about{
+        padding-top: 80px;
+        &__header{
+            display: block;
+            &__text{
+                h1{
+                margin: 0;
+                }
+            }
+        }
+    }
+    .about__custom{
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 20px 10px;
+        &__contact__info,&__send__message,&__download__resume{
+
+            padding: 15px 0;
+            i{
+                margin-right: 5px;
+            }
+            a {
+                font-size: 9px;
+              }
+        }
+    }
+    .about__info{
+        padding: 50px 0 70px 0;
+        h1{
+            margin-left: 15px;
+        }
+        &__content{
+            grid-template-columns: 1fr;
+            &__text{
+                margin: 0 15px;
+            }
+            &__details{
+                padding: 20px 15px;
+                margin: 0 15px;
+                h2{
+                    font-size: 15px;
+                }
+                &__text{
+                    &__item{
+                        p{
+                            font-size: 9px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+// experience
+.experience__container {
+    padding: 40px 0;
+    h1{
+        margin-left: 15px;
+    }
+   &__content{
+       margin: 20px 15px;
+       &__item{
+        &__info{
+            padding: 15px 19px 15px 15px;
+            p{
+                font-size: 10px;
+
+            }
+            h4{
+                font-size: 12px;
+            }
+        }
+        &__description{
+            padding: 15px;
+            h4{
+                font-size: 16px;
+            }
+            p{
+                line-height: 24px;
+            }
+        }
+       }
+
+    }
+
+  
+}
+
+
+// education
+.education__container{
+    padding: 40px 0;
+    &__content{
+        grid-template-columns: 1fr;
+        margin: 0 9px;
+    
+    &__item{
+        padding: 25px 40px 25px 40px;
+        h3{
+            font-size: 15px;
+        }
+        p{
+            font-size: 12px;
+        }
+    }
+}
+}
+
+// skills
+.skills__container{
+    padding: 40px 0;
+    &__content{
+        margin: 20px 15px;
+        
+    }
+}
+// portfolio
+.portfolio__container{
+    padding: 40px 0;
+    h1{
+        margin: 0;
+    }
+    &__content{
+        grid-template-columns: 1fr;
+        &__item{
+            img{
+                box-shadow: 0 30px 90px 0 #dde5ee;
+            }
+           
+        }
+    }
+}
+// recommendations
+.recommendations{
+    padding: 40px 0;
+    &__container{
+        &__content{
+            &__item{
+                &__blockquote{
+                    blockquote{
+                        padding: 0 30px 0 30px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+//  blog
+
+.my__blog__container{
+    padding: 40px 0;
+&__content{
+    grid-template-columns: 1fr;
+    margin: 20px 0px;
+    &__item{
+        &__img{
+        img{
+            height: 160px;
+            width: 375px;
+
+        }
+
+    }
+    &__description    {
+        padding: 15px 15px;
+          h2{
+            font-size: 20px;
+        }
+        p{
+            font-size: 10px;
+            line-height: 24px;
+    padding-bottom: 25px;
+        }
+        h6{
+            font-size: 11px;
+            strong{
+                margin-left:115px;
+            }
+        }
+    }  
+    }
+    
+    }
+}
+
+// contact
+.contact__container{
+    &__content{
+        grid-template-columns: 1fr;
+        &__item{
+            width: 350px;
+            form{
+                p{
+                    textarea{
+                        width: 310px;
+                        min-width: 280px;
+                       
+                    }
+                }
+            }
+            &__content__row{
+                display: none;
+                background-color: #2d2c2a;
+            }
+
+        }
+
+
+    }
+}
+}
+

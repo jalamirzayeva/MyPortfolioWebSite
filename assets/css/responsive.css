@@ -1,0 +1,123 @@
+@media (max-width: 576px) {
+  h1 {
+    margin-left: 15px; }
+
+  .menu-nav__list__item {
+    display: none; }
+
+  .about {
+    padding-top: 80px; }
+    .about__header {
+      display: block; }
+      .about__header__text h1 {
+        margin: 0; }
+
+  .about__custom {
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 20px 10px; }
+    .about__custom__contact__info, .about__custom__send__message, .about__custom__download__resume {
+      padding: 15px 0; }
+      .about__custom__contact__info i, .about__custom__send__message i, .about__custom__download__resume i {
+        margin-right: 5px; }
+      .about__custom__contact__info a, .about__custom__send__message a, .about__custom__download__resume a {
+        font-size: 9px; }
+
+  .about__info {
+    padding: 50px 0 70px 0; }
+    .about__info h1 {
+      margin-left: 15px; }
+    .about__info__content {
+      grid-template-columns: 1fr; }
+      .about__info__content__text {
+        margin: 0 15px; }
+      .about__info__content__details {
+        padding: 20px 15px;
+        margin: 0 15px; }
+        .about__info__content__details h2 {
+          font-size: 15px; }
+        .about__info__content__details__text__item p {
+          font-size: 9px; }
+
+  .experience__container {
+    padding: 40px 0; }
+    .experience__container h1 {
+      margin-left: 15px; }
+    .experience__container__content {
+      margin: 20px 15px; }
+      .experience__container__content__item__info {
+        padding: 15px 19px 15px 15px; }
+        .experience__container__content__item__info p {
+          font-size: 10px; }
+        .experience__container__content__item__info h4 {
+          font-size: 12px; }
+      .experience__container__content__item__description {
+        padding: 15px; }
+        .experience__container__content__item__description h4 {
+          font-size: 16px; }
+        .experience__container__content__item__description p {
+          line-height: 24px; }
+
+  .education__container {
+    padding: 40px 0; }
+    .education__container__content {
+      grid-template-columns: 1fr;
+      margin: 0 9px; }
+      .education__container__content__item {
+        padding: 25px 62px 25px 62px; }
+        .education__container__content__item h3 {
+          font-size: 15px; }
+        .education__container__content__item p {
+          font-size: 12px; }
+
+  .skills__container {
+    padding: 40px 0; }
+    .skills__container__content {
+      margin: 20px 15px; }
+
+  .portfolio__container {
+    padding: 40px 0; }
+    .portfolio__container h1 {
+      margin: 0; }
+    .portfolio__container__content {
+      grid-template-columns: 1fr; }
+      .portfolio__container__content__item img {
+        box-shadow: 0 30px 90px 0 #dde5ee; }
+
+  .recommendations {
+    padding: 40px 0; }
+    .recommendations__container__content__item__blockquote blockquote {
+      padding: 0 30px 0 30px; }
+
+  .my__blog__container {
+    padding: 40px 0; }
+    .my__blog__container__content {
+      grid-template-columns: 1fr;
+      margin: 20px 0px; }
+      .my__blog__container__content__item__img img {
+        height: 160px;
+        width: 100%; }
+      .my__blog__container__content__item__description {
+        padding: 15px 15px; }
+        .my__blog__container__content__item__description h2 {
+          font-size: 20px; }
+        .my__blog__container__content__item__description p {
+          font-size: 10px;
+          line-height: 24px;
+          padding-bottom: 25px; }
+        .my__blog__container__content__item__description h6 {
+          font-size: 11px; }
+          .my__blog__container__content__item__description h6 strong {
+            margin-left: 115px; }
+
+  .contact__container__content {
+    grid-template-columns: 1fr; }
+    .contact__container__content__item {
+      width: 350px; }
+      .contact__container__content__item form p textarea {
+        width: 310px;
+        min-width: 280px; }
+      .contact__container__content__item__content__row {
+        display: none;
+        background-color: #2d2c2a; } }
+
+/*# sourceMappingURL=responsive.css.map */
