@@ -41,6 +41,9 @@
             grid-template-columns: 1fr;
             &__text{
                 margin: 0 15px;
+                p{
+                    font-size: 10px;
+                }
             }
             &__details{
                 padding: 20px 15px;
@@ -67,25 +70,28 @@
         margin-left: 15px;
     }
    &__content{
-       margin: 20px 15px;
+    //    margin: 20px 15px;
        &__item{
         &__info{
-            padding: 15px 19px 15px 15px;
+            padding: 15px 47px 15px 15px;
             p{
-                font-size: 10px;
+                font-size: 9px;
+                margin-top: 10px;
 
             }
             h4{
-                font-size: 12px;
+                font-size: 13px;
             }
         }
         &__description{
-            padding: 15px;
+            padding: 15px 30px 15px 27px;
             h4{
-                font-size: 16px;
+                font-size: 15px;
+                margin-bottom: 7px;
             }
             p{
-                line-height: 24px;
+                font-size: 10px;
+                line-height: 13px;
             }
         }
        }
@@ -148,6 +154,9 @@
                 &__blockquote{
                     blockquote{
                         padding: 0 30px 0 30px;
+                        p{
+                            font-size: 11px;
+                        }
                     }
                 }
             }
@@ -166,7 +175,7 @@
         &__img{
         img{
             height: 160px;
-            width: 375px;
+            width: 100%;
 
         }
 
@@ -199,8 +208,14 @@
         grid-template-columns: 1fr;
         &__item{
             width: 350px;
+            h1{
+                margin-left: 0;
+            }
             form{
                 p{
+                    input{
+                        padding: 4px 143px 5px 0;
+                    }
                     textarea{
                         width: 310px;
                         min-width: 280px;

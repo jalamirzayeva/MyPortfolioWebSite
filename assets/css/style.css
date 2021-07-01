@@ -77,15 +77,13 @@
         color: #fdd55c;
         margin-bottom: 10px; }
       .about__header__text h3 {
-        font-size: 21px;
+        font-size: 22px;
         font-weight: 400;
         margin-bottom: 30px; }
       .about__header__text p {
-        font-size: 14px;
-        color: #b7b7b7;
+        font-size: 16px;
+        color: white;
         margin-bottom: 16px; }
-        .about__header__text p strong {
-          color: white; }
 
 .about__custom {
   display: grid;
@@ -129,7 +127,7 @@
     .about__info__content__text p {
       margin: 10px 0 20px 0;
       color: #727c93;
-      font-size: 14px;
+      font-size: 13px;
       line-height: 26px; }
     .about__info__content__text button {
       background-color: #403f3d;
@@ -176,33 +174,36 @@
       .experience__container__content__item {
         box-shadow: 0 12px 90px -10px rgba(171, 191, 216, 0.6) !important;
         display: grid;
-        grid-template-columns: 3fr 9fr;
-        margin-bottom: 30px;
-        border-radius: 20px; }
+        grid-template-columns: 1fr 3fr;
+        margin-bottom: 30px; }
         .experience__container__content__item__info {
           background-color: #fdd55c;
           color: #2e353e;
-          padding: 40px 128px 40px 40px;
-          border-top-left-radius: 20px;
-          border-bottom-left-radius: 20px; }
+          padding: 40px 86px 40px 40px; }
           .experience__container__content__item__info p {
             font-size: 11px;
             color: #1e1e1e !important;
-            opacity: 0.8; }
+            opacity: 0.8;
+            margin-top: 15px; }
           .experience__container__content__item__info h4 {
             font-size: 16px;
             font-weight: 600; }
         .experience__container__content__item__description {
           background-color: white;
-          border-top-right-radius: 20px;
-          border-bottom-right-radius: 20px;
-          padding: 40px; }
-          .experience__container__content__item__description h4 {
+          padding: 40px 80px;
+          width: 100%; }
+          .experience__container__content__item__description h2 {
             color: #2e353e;
             font-weight: 600;
-            font-size: 19.6px;
+            font-size: 20px;
             line-height: 27px;
-            margin-bottom: 14px; }
+            margin-bottom: 15px; }
+          .experience__container__content__item__description h5 {
+            color: #2e353e;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 27px;
+            margin-bottom: 10px; }
           .experience__container__content__item__description p {
             color: #727c93;
             font-size: 14px;
@@ -271,6 +272,13 @@
     display: grid;
     grid-gap: 20px;
     grid-template-columns: 1fr 1fr 1fr; }
+    .portfolio__container__content__item p {
+      font-size: 18px;
+      font-weight: 500; }
+      .portfolio__container__content__item p a {
+        color: #e8c458;
+        font-size: 16px;
+        font-weight: 400; }
     .portfolio__container__content__item img {
       cursor: pointer;
       object-fit: cover;
@@ -323,8 +331,7 @@
     margin: 40px 0; }
     .my__blog__container__content__item {
       box-shadow: 0 30px 40px 0 #dde5ee;
-      /* border-radius: 20px;  */
-    }
+      border-radius: 20px; }
       .my__blog__container__content__item__img {
         width: 100%;
         height: auto;
@@ -334,9 +341,8 @@
           width: 558px;
           height: 230px;
           min-width: 230px;
-          /* border-top-left-radius: 20px;
-          border-top-right-radius: 20px;  */
-        }
+          border-top-left-radius: 20px;
+          border-top-right-radius: 20px; }
       .my__blog__container__content__item__description {
         padding: 20px 45px; }
         .my__blog__container__content__item__description h2 {
@@ -374,8 +380,14 @@
     font-weight: 700;
     transition: ease 300ms;
     cursor: pointer; }
+    .my__blog__container__btn a {
+      color: #2e353e !important;
+      text-decoration: none; }
+      .my__blog__container__btn a:hover {
+        color: #2e353e; }
     .my__blog__container__btn:hover {
-      background-color: #fdd55c; }
+      background-color: #fdd55c;
+      color: #2e353e; }
 
 .contact {
   background-color: #fdd55c; }
@@ -405,7 +417,7 @@
               outline: none;
               color: #282d36;
               font-size: 11px;
-              padding: 5px 0;
+              padding: 5px 347px 5px  0;
               font-weight: 600; }
             .contact__container__content__item form p textarea {
               border: none;

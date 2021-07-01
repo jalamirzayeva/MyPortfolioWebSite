@@ -30,6 +30,8 @@
       grid-template-columns: 1fr; }
       .about__info__content__text {
         margin: 0 15px; }
+        .about__info__content__text p {
+          font-size: 10px; }
       .about__info__content__details {
         padding: 20px 15px;
         margin: 0 15px; }
@@ -42,20 +44,21 @@
     padding: 40px 0; }
     .experience__container h1 {
       margin-left: 15px; }
-    .experience__container__content {
-      margin: 20px 15px; }
-      .experience__container__content__item__info {
-        padding: 15px 19px 15px 15px; }
-        .experience__container__content__item__info p {
-          font-size: 10px; }
-        .experience__container__content__item__info h4 {
-          font-size: 12px; }
-      .experience__container__content__item__description {
-        padding: 15px; }
-        .experience__container__content__item__description h4 {
-          font-size: 16px; }
-        .experience__container__content__item__description p {
-          line-height: 24px; }
+    .experience__container__content__item__info {
+      padding: 15px 47px 15px 15px; }
+      .experience__container__content__item__info p {
+        font-size: 9px;
+        margin-top: 10px; }
+      .experience__container__content__item__info h4 {
+        font-size: 13px; }
+    .experience__container__content__item__description {
+      padding: 15px 30px 15px 27px; }
+      .experience__container__content__item__description h4 {
+        font-size: 15px;
+        margin-bottom: 7px; }
+      .experience__container__content__item__description p {
+        font-size: 10px;
+        line-height: 13px; }
 
   .education__container {
     padding: 40px 0; }
@@ -63,7 +66,7 @@
       grid-template-columns: 1fr;
       margin: 0 9px; }
       .education__container__content__item {
-        padding: 25px 62px 25px 62px; }
+        padding: 25px 40px 25px 40px; }
         .education__container__content__item h3 {
           font-size: 15px; }
         .education__container__content__item p {
@@ -87,6 +90,8 @@
     padding: 40px 0; }
     .recommendations__container__content__item__blockquote blockquote {
       padding: 0 30px 0 30px; }
+      .recommendations__container__content__item__blockquote blockquote p {
+        font-size: 11px; }
 
   .my__blog__container {
     padding: 40px 0; }
@@ -113,6 +118,10 @@
     grid-template-columns: 1fr; }
     .contact__container__content__item {
       width: 350px; }
+      .contact__container__content__item h1 {
+        margin-left: 0; }
+      .contact__container__content__item form p input {
+        padding: 4px 143px 5px 0; }
       .contact__container__content__item form p textarea {
         width: 310px;
         min-width: 280px; }
